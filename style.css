@@ -64,3 +64,16 @@ body {
     height: 400px;
     width: 240px;
 }
+.bottom_banner{
+    padding-top: 80px;
+}
+.events-grid{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.event-grid{
+    height: 200px;
+    width: 220px;
+}
