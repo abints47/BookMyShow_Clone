@@ -1,23 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BookMyShow</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <nav>
-        <div class="navbar">
-        <img class="logo" src="./public/BookMyShow_id_NUAGErP_1.png" alt="logo">
-        <input type="text">
-        <label for="place">Thrissur</label>
-        <button>Sign in</button>
-
-
+      <div class="navbar">
+        <img
+          class="logo"
+          src="./public/BookMyShow_id_NUAGErP_1.png"
+          alt="logo"
+        />
+        <div
+          style="
+            display: inline-flex;
+            align-items: center;
+            border: 1px solid slategray;
+            border-radius: 4px;
+            padding-left: 10px;
+            width: 40%;
+          "
+        >
+          <img
+            src="./public/icons8-magnifier-30.png"
+            alt="Search"
+            style="width: 20px; height: 20px"
+          />
+          <input
+            type="text"
+            placeholder="Search for Movies, Events, Plays, Sports and Activities"
+            style="border: none; outline: none; padding: 10px; width: 100%"
+          />
         </div>
-
+        <label
+          for="place"
+          style="padding-left: 30%; padding-right: 40px; padding-top: 10px"
+          >Thrissur
+        </label>
+        <button class="btn">Sign in</button>
+      </div>
     </nav>
-    
-</body>
+
+    <div class="Route-div">
+      <div>
+        <a href="#" class="routing">Movies</a>
+      </div>
+      <div>
+        <a href="#" class="routing">Stream</a>
+      </div>
+      <div>
+        <a href="#" class="routing">Events</a>
+      </div>
+      <div>
+        <a href="#" class="routing">Plays</a>
+      </div>
+      <div>
+        <a href="#" class="routing">Sports</a>
+      </div>
+      <div>
+        <a href="#" class="routing">Activities</a>
+      </div>
+      <div class="left-Route-div">
+        <div>
+          <a href="" class="routing">ListYourShow</a>
+        </div>
+        <div>
+          <a href="" class="routing">Corporates</a>
+        </div>
+        <div>
+          <a href="" class="routing">Offers</a>
+        </div>
+        <div>
+          <a href="" class="routing">GiftCards</a>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
