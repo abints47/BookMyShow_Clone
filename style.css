@@ -46,3 +46,16 @@ body {
   gap: 10px;
   font-size: 15px;
 }
+
+.banner{
+    padding-top: 30px;
+}
+.movie-card{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 16px;
+}
+.movie{
+    height: 500px;
+}
