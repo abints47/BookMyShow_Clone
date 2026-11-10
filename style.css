@@ -87,6 +87,7 @@ body {
     margin-left: -140px;
     text-align: left;
     color: white;
+    padding-bottom: 100px;
 }
 .contact-btn{
 
@@ -100,3 +101,63 @@ body {
     color: white;
     border-radius: 10px;
 }
+
+.footer{
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    background-color: #4e4c4c;
+    margin-left: -150px;
+    width: 130%;
+    padding-left: 550px;
+    padding-bottom: 100px;
+}
+.social-links {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 30px;
+    }
+
+    .social-icon {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 44px;
+      height: 44px;
+      background-color: #686870;
+      border-radius: 50%;
+      color: #333338;
+      text-decoration: none;
+      transition: background-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .social-icon:hover {
+      background-color: #85858f;
+    }
+
+    .social-icon svg {
+      width: 22px;
+      height: 22px;
+      fill: #333338;
+    }
+
+    /* Legal / Disclaimer Text */
+    .footer-content {
+      max-width: 900px;
+      font-size: 11.5px;
+      line-height: 1.6;
+      margin-left: -10px;
+      color: #65656c;
+      letter-spacing: 0.1px;
+    }
+
+    .copyright {
+      margin-bottom: 8px;
+      font-weight: 400;
+      margin-left: -0px;
+    }
+
+    .disclaimer {
+      margin: 0;
+      margin-left: -220px;
+    }
