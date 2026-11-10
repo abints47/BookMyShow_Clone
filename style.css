@@ -51,11 +51,16 @@ body {
     padding-top: 30px;
 }
 .movie-card{
-    padding-top: 40px;
+    padding-top: 10px;
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap: 16px;
+    gap: 5px;
+    padding-right: 75px;
+}
+.img-grid{
+    gap: 15px;
 }
 .movie{
-    height: 500px;
+    height: 400px;
+    width: 240px;
 }
