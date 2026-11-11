@@ -32,6 +32,7 @@ body {
   flex-direction: row;
   outline: none;
   gap: 20px;
+  padding-top: 10px;
   margin-top: 20px;
   margin-left: -150px;
   height: 30px;
@@ -87,16 +88,6 @@ body {
     padding-bottom: 100px;
 }
 
-.premier{
-    padding-top: 50px;
-    padding-left: 150px;
-    width: 102%;
-    background-color: #2B3149;
-    margin-left: -140px;
-    text-align: left;
-    color: white;
-    padding-bottom: 100px;
-}
 .contact-btn{
 
     height: 50px;
@@ -114,11 +105,36 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 200px;
-    background-color: #4e4c4c;
+    background-color: #313243;
     margin-left: -148px;
     width: 73%;
     padding-left: 550px;
     padding-bottom: 100px;
+}
+.footer-title{
+  padding-top: 10px;
+  color: #F5F5F5;
+  margin-left: -400px;
+
+}
+.footer-btn{
+  border-radius: 10px;
+  background-color: #DC354B;
+  color: whitesmoke;
+  outline: none;
+  border: 1px solid #eb4e62;
+  height: 50px;
+  width: 100px;
+}
+.footer-icon{
+  display: flex;
+  color: whitesmoke;
+  flex-direction: row;
+  margin-left: -550px;
+  gap: 200px;
+  background-color: #404040;
+  padding-bottom: 20px;
+  padding-top: 10px;
 }
 .social-links {
       display: flex;
