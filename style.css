@@ -285,25 +285,170 @@ body {
   margin: 0;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 1440px) {
   body {
-    padding: 50px 50px 10px;
-    background-color: #daa520;
+    padding: 10px 20px;
+  }
+
+  .Route-div {
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    padding: 10px;
+  }
+
+  .left-Route-div {
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+
+  .movie-card {
+    padding-right: 0;
+  }
+
+  .img-grid {
+    min-width: 0;
+  }
+
+  .movie {
+    width: 100%;
+    height: auto;
+  }
+
+  .banner img {
+    width: 100%;
+    height: auto;
+  }
+
+  .events-grid > div {
+    min-width: 0;
+  }
+
+  .event-grid {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer {
+    box-sizing: border-box;
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .support-bar {
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 1024px) {
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .navbar label {
+    padding-left: 0 !important;
+    padding-right: 10px !important;
+  }
+
+  .movie-card {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .events-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer > div:first-child {
+    flex-direction: column !important;
+    width: 100% !important;
+    margin-left: 0 !important;
+  }
+
+  .footer > div:first-child h4 {
+    padding-right: 0 !important;
+  }
+
+  .contact-btn {
+    margin-top: 0;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
   }
 
   .navbar {
     flex-direction: column;
-    width: 100%;
+    align-items: flex-start;
+  }
+
+  .navbar > div {
+    box-sizing: border-box;
+    width: 100% !important;
+  }
+
+  .navbar label {
+    padding-top: 0 !important;
   }
 
   .movie-card {
-    flex-direction: column;
-    height: auto;
+    grid-template-columns: repeat(2, 1fr);
   }
 
-  .movie {
-    flex-direction: column;
-    width: auto;
-    height: auto;
+  .events-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .bottom_banner img {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .footer {
+    margin-top: 80px;
+    padding: 40px 20px;
+  }
+
+  .footer-divider-container {
+    padding-top: 40px;
+  }
+
+  .footer-logo img {
+    width: 80px !important;
+    height: 80px !important;
+  }
+
+  .social-links {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .movie-card {
+    grid-template-columns: 1fr;
+  }
+
+  .events-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .img-grid {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .contact-btn {
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .footer-content {
+    margin-left: 0;
   }
 }
